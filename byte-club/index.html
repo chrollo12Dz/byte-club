@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Byte Club — Computer Science Student Community</title>
+  <meta name="description" content="Byte Club is a student-run computer science community focused on software engineering, Linux, problem-solving, and peer workshops.">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Byte Club home">
+        <img src="logo-trimmed.png" alt="Byte Club logo" width="127" height="64">
+        <span>Byte Club</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#archive">Archive</a></li>
+          <li><a href="#join">Join / Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+
+    <!-- INTRO -->
+    <section class="intro" id="about" aria-labelledby="intro-title">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Student-run &middot; Computer Science</p>
+      <h1 id="intro-title">A student-run computer science community.</h1>
+      <p class="lead">
+        Byte Club is a group of students who like building things and understanding how they work.
+        We focus on software engineering, Linux, problem-solving, and peer-led workshops.
+        Beginners and experienced programmers are equally welcome.
+      </p>
+      <p class="intro-action">
+        <a class="button" href="https://discord.gg/gXWcXNUDS8">Join us on Discord</a>
+      </p>
+
+      <dl class="facts">
+        <div>
+          <dt>Format</dt>
+          <dd>Workshops, talks, contests</dd>
+        </div>
+        <div>
+          <dt>Focus</dt>
+          <dd>Software, Linux, problem-solving</dd>
+        </div>
+        <div>
+          <dt>Who</dt>
+          <dd>Open to all students</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- ARCHIVE -->
+    <section class="archive" id="archive" aria-labelledby="archive-title">
+      <p class="label">Archive</p>
+      <h2 id="archive-title">What we did</h2>
+      <p class="section-note">Past activities, grouped by academic year.</p>
+
+      <!--
+        TO ADD AN EVENT: copy one <li class="event">…</li> block into the right year's <ul>.
+        TO ADD A YEAR:   copy a whole <details class="year">…</details> block.
+        The visible category label is the text inside <span class="tag">.
+      -->
+
+      <!--
+        EXAMPLE YEAR BLOCK (copy, remove the comment markers, and edit):
+
+        <details class="year" open>
+          <summary><span class="year-label">2025–2026</span> <span class="count">1 event</span></summary>
+          <ul class="events">
+            <li class="event">
+              <time class="date" datetime="2026-04">Apr 2026</time>
+              <div class="body">
+                <h3>Event title</h3>
+                <span class="tag">Workshop</span>
+                <p>One or two sentences about what happened. <a href="#">Slides</a></p>
+              </div>
+            </li>
+          </ul>
+        </details>
+      -->
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="pillars" aria-labelledby="pillars-title">
+      <p class="label">Pillars</p>
+      <h2 id="pillars-title">What we do</h2>
+      <ol class="pillar-list">
+        <li>
+          <span class="num">01</span>
+          <h3>Technical Workshops</h3>
+          <p>Hands-on sessions led by students, covering tools and skills that coursework tends to skip.</p>
+        </li>
+        <li>
+          <span class="num">02</span>
+          <h3>Projects</h3>
+          <p>Websites, apps, and coding, built by members and shared with the club.</p>
+        </li>
+        <li>
+          <span class="num">03</span>
+          <h3>Hackathons &amp; Competitions</h3>
+          <p>Hackathons and competitions, run internally and with other universities.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- JOIN -->
+    <section class="join" id="join" aria-labelledby="join-title">
+      <div class="join-box">
+        <p class="label">Contact</p>
+        <h2 id="join-title">Join / Contact</h2>
+        <p>
+          Open to all students. Join the Discord for announcements, or send us an email with any questions.
+        </p>
+        <p class="actions">
+          <a class="button" href="https://discord.gg/gXWcXNUDS8">Join on Discord</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>
+        <strong>Byte Club</strong>
+      </p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/your-org">GitHub</a></li>
+        <li><a href="https://discord.gg/gXWcXNUDS8">Discord</a></li>
+        <li><a href="https://instagram.com/your-handle">Instagram</a></li>
+        <li><a href="mailto:byteclub@university.edu">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
